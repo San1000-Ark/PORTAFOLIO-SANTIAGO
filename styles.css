@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: #000; /* Fondo base negro */
+  color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #00bfff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin: 1rem 0 2rem;
+}
+
+.btn-cta {
+  padding: 0.8rem 2rem;
+  background: #00bfff44;
+  color: #00bfff;
+  border: 1px solid #00bfff;
+  border-radius: 8px;
+  text-decoration: none;
+  backdrop-filter: blur(4px);
+}
+
+.about {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.about .foto {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem auto;
+  display: block;
+  border: 3px solid #00bfff;
+}
+
+.repos {
+  padding: 4rem 2rem;
+}
+
+.repo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.repo-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px #00bfff;
+}
+
+.repo-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.repo-card h3 {
+  margin: 0.5rem 0;
+}
+
+.repo-card a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.contacto {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.contact-links a {
+  margin: 0.5rem 1rem;
+  color: #00bfff;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
